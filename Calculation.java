@@ -19,7 +19,6 @@ public class Calculation {
         if (dog >= cat && dog >= fish && dog >= bird && dog >= rodent && dog >= reptile) {
             // [1st Place: Dog Code Here]
             if (cat >= bird && cat >= rodent && cat >= reptile && cat >= fish) {
-                return "Dog - Papillon - Aligns with your choices";
                 if (bird >= rodent && bird >= reptile && bird >= fish) { 
                     // [3rd Place: Bird Code Here]
                     return "Dog - Poodle - Aligns with your choices";
@@ -539,5 +538,6 @@ public class Calculation {
                 }
             }
         }
+        return result;
     }
 }
