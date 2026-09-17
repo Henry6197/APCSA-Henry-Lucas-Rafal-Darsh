@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class petFinder {
+public class petDecider {
     public static void main(String[] args) {
         // Initialize an ArrayList to keep track of scores for each pet category
         ArrayList<Integer> petScores = new ArrayList<>();

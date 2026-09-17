@@ -10,7 +10,7 @@ public class Quiz {
      * Question 1: Acts as a gatekeeper to check if the user even wants a pet.
      * @return boolean - true if 'y', false if 'n'
      */
-    public static boolean q1() {
+    public boolean q1() {
         System.out.println("Do you want pets? (y/n): ");
         String q1Ans = input.nextLine().trim();
 
