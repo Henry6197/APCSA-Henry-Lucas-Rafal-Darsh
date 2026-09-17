@@ -2,14 +2,14 @@ import java.util.List;
 
 public class Calculation {
 
-    public String calculatePet(List<Integer> scores) {
+    public String calculatePet(List<Double> scores) {
 
-        int dog = scores.get(0);// Energy, space, active, medium matinence med cost
-        int cat = scores.get(1);// low energy low maitnence low space low cost 
-        int fish = scores.get(2); // low matinence, low cost, low energy, low space
-        int bird = scores.get(4);  // high matinence, high cost, low energy low space
-        int rodent = scores.get(3);  // low matinence, low cost, low energy low space 
-        int reptile = scores.get(5);          // low matinence, high cost, low energy, low space
+        double dog = scores.get(0);// Energy, space, active, medium matinence med cost
+        double cat = scores.get(1);// low energy low maitnence low space low cost 
+        double fish = scores.get(2); // low matinence, low cost, low energy, low space
+        double bird = scores.get(4);  // high matinence, high cost, low energy low space
+        double rodent = scores.get(3);  // low matinence, low cost, low energy low space 
+        double reptile = scores.get(5);          // low matinence, high cost, low energy, low space
 
         String result = "";
 
