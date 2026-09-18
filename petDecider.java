@@ -1,20 +1,18 @@
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
 public class petDecider {
     public static void main(String[] args) {
         // Initialize an ArrayList to keep track of scores for each pet category
-        ArrayList<Integer> petScores = new ArrayList<>();
+        ArrayList<Double> petScores = new ArrayList<>();
         
         // Index mapping: 0=dog, 1=cat, 2=fish, 3=rodent, 4=bird, 5=reptile
         // (Note: Make sure your Quiz class matches this exact order!)
-        petScores.add(0);
-        petScores.add(0);
-        petScores.add(0);
-        petScores.add(0);
-        petScores.add(0);
-        petScores.add(0);
+        petScores.add(0.0);
+        petScores.add(0.0);
+        petScores.add(0.0);
+        petScores.add(0.0);
+        petScores.add(0.0);
+        petScores.add(0.0);
         
         // Debug print to check the initial score at index 0 (dog)
         System.out.println(petScores.get(0));
